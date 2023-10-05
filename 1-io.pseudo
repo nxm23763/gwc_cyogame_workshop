@@ -1,0 +1,9 @@
+// STEP 1: INPUT/OUTPUT (I/O)
+// --------------------
+// The first step with any text-based programming language is to learn how to do I/O.
+// Get on your favorite search engine and research how your language does input and output.
+// Some basic pseudocode for this:
+
+print StoryElement for Beginning
+ask question
+get input

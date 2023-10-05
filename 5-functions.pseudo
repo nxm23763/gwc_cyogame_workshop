@@ -1,0 +1,28 @@
+// STEP 5: FUNCTIONS
+// -----------------
+// Next, you will learn how to create functions in your CYO Adventure Game to reduce redundant code and make your program easier to read.
+// Research how your programming language reads functions.
+// Afterwards, create a function to execute each story element.
+// Check out the pseudocode below if you want to see how we used functions.
+
+// main function:
+Function MyFunction(StoryElement, Question, AnswerA, AnswerB):
+    string answer = ""
+    print StoryElement
+
+    while answer is not (AnswerA or AnswerB)
+        print Question
+        answer = get input
+        if answer is "QUIT"
+            exit the program
+    return answer
+
+// story below:
+print "description"
+string CurrentAnswer = ""
+CurrentAnswer = MyFunction("Beginning", "Choice1", "Answer1A", "Answer1B")
+if CurrentAnswer is "Answer1A"
+    CurrentAnswer = MyFunction("Element2A", "Choice2A", "Answer2A", "Answer2B")
+else if CurrentAnswer is "Answer1B"
+    CurrentAnswer = MyFunction("Element2B", "Choice2B", "Answer2C", "Answer2D")
+// and so on...

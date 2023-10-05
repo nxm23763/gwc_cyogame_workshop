@@ -1,0 +1,20 @@
+// STEP 4: LOOPS
+// -------------
+// Now that we have a question to ask the user, we can use a loop to keep asking the question until we get a valid input.
+// Use a WHILE loop to check for valid answers or a FOR loop to give the player a certain number of answer tries.
+// Make sure you research how your programming languages uses loops!
+// The pseudocode for that looks like this:
+
+print StoryElement for Beginning
+string answer = ""
+
+// validity check
+while answer is not (AnswerA or AnswerB)
+    ask question
+    answer = get input
+    if answer is "QUIT"
+        exit the program
+    if a:
+        print StoryElement for a
+    if b:
+        print StoryElement for b

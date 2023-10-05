@@ -1,0 +1,18 @@
+// STEP 3: CONDITIONALS
+// --------------------
+// Now, let's use a conditional to decide whether to go to Story Element 2A or 2B.
+// Look up the syntax for IF statements and the code this pseudocode:
+
+print StoryElement for Beginning
+string answer = ""
+ask question
+answer = get input
+
+if answer is "QUIT"
+    exit the program
+
+if a:
+    print StoryElement for a
+
+if b:
+    print StoryElement for b

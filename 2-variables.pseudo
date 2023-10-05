@@ -1,0 +1,10 @@
+// STEP 2: VARIABLES
+// -----------------
+// The next step is find out how your language stores the input a user has given.
+// This depends on how your programming language uses variables.
+// Then write the pseudocode:
+
+print StoryElement for Beginning
+string answer = ""
+ask question
+answer = get input
